@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+	
+		<title> Age in Seconds </title>
+		<meta charset="utf-9" />
+		<link href="age_styles.css" rel="stylesheet" />
+		<script src="age_seconds.js" defer></script>
+
+	</head>
+
+	<body>
+	
+		<header>
+			<H1> Welcome to Age in Seconds! </ul>
+		</header>
+	
+		<div class="top">
+		
+			<h3> Please enter the date in which you'd like to calculate from. </h1>
+			
+			<form action="/age_seconds.js" id = "dateform" name="dateform">
+				<input type="date" id="dateform" value="2000-01-01">
+			</form>
+			
+			<h3> Please enter the time of the day you'd like to calculate from. Example: 12:00 PM </h3>
+				
+			<form action="/age_seconds.js" id="timeform" name="timeform">
+				<input type="time" name="timeform" value="12:00">
+				<p>Default time is noon.</p>
+			</form>
+			
+			<button class = "button" onclick="calculate()">Calculate!</button>
+			<p> *Note: The older the date the more accurate!</p>
+			<h2> The age in seconds calculates to be: </h2>
+			<H1 id="totalAge" class="total"></H1>
+			
+		</div>
+	
+		<div class="bottom">
+			<H1>Fun Facts!</H1>
+			<h2>The average life expectancy as of 2014 for all humans is 71.5 years, or 2,256,368,400 seconds.</h2>
+			<h2>During the years 1300-1400 the average life expectancy for all humans was only 45 years or 1,419,120,000 seconds due to the bubonic plague.</h2>
+			<h2>The universe is approximated to be around 14 billion years old. Thats 441,806,400,000,000,000 seconds! (Thats 441 QUADRILLION seconds!)</h2>
+			<h2>The oldest tree in the world is the Methuselah, Bistlecone Pine tree of the Pinus Longaeva family. It is estimated to be about 4851 years old. That is 153,085,917,600 seconds old! </h2>
+			<h2>The major extinction that wiped out over 50% of all living things, including dionsaurs was approximately 65.5 million years ago! That happened approximately 2,067,022,800,000,000 seconds ago!</h2>
+		</div>
+		
+		<footer>
+			<p> Age in Seconds &copy; 2019 All Rights Reserved</p>
+		</footer>
+		
+	</body>
+
+</html>
